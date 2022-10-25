@@ -7,17 +7,15 @@ Return:
 */
 int func(List<int> numbers) {
   int s = 0;
-  int a = 0;
+
   for (int d = 0; d < numbers.length; d++) {
     if (d % 2 == 1) {
       s += numbers[d];
     }
-    if (s % 2 == 1) {
-      a += s;
-    }
+    
   }
 
-  return a;
+  return s;
 }
 
 void main() {
