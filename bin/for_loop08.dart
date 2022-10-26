@@ -2,7 +2,7 @@ int func(List<int> numbers, int k, int n) {
     int d = 0;
   for(int i = k; i < n; i = i + 1){
     if(numbers[i] % 2 == 0){
-      d += numbers[i];
+      d += numbers[n];
 
     }
   }
